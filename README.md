@@ -63,5 +63,5 @@ Below are the confusion matrices for the top models tested:
 ## How to Run
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/diabetes-prediction-ml.git
+git clone https://github.com/Samson-tech-code/diabetes-prediction-ml.git
 pip install pandas numpy scikit-learn matplotlib seaborn
