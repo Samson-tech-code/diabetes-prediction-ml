@@ -282,18 +282,21 @@ jupyter notebook
 ````
 
 ### Project Structure
-````
+```
 diabetes-prediction-ml/
 │
-├── diabetes_prediction.ipynb    # Main analysis notebook
+├── diabetes_prediction.ipynb    # Main Jupyter notebook with full analysis
 ├── data/
-│   └── diabetes.csv             # Dataset
-├── images/                      # Visualizations
-│   ├── roc_curve.png
-│   ├── feature_importance_rf.png
-│   └── confusion_matrix_rf.png
-├── requirements.txt             # Dependencies
-└── README.md                    # This file
+│   └── diabetes.csv             # Pima Indians Diabetes dataset (768 records)
+├── images/                      # Visualisation outputs
+│   ├── roc_curve.png           # ROC curve comparison for all models
+│   ├── feature_importance_rf.png # Random Forest feature importance bar chart
+│   ├── confusion_matrix_rf.png  # Random Forest confusion matrix heatmap
+│   ├── confusion_matrix_svm.png # SVM confusion matrix heatmap
+│   └── confusion_matrix_logistic.png # Logistic Regression confusion matrix
+├── requirements.txt             # Python package dependencies
+├── README.md                    # Project documentation (this file)
+└── LICENSE                      # MIT License
 ```
 
 ### **Learning & Future**
