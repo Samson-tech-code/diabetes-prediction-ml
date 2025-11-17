@@ -25,26 +25,26 @@ Source: [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/p
 - **768 patient records** (female patients of Pima Indian heritage, ages 21+)
 - **8 predictive features:**
 
- - **Pregnancies:** Number of times pregnant
- - **Glucose:** Plasma glucose concentration (mg/dL)
- - **Blood Pressure:** Diastolic blood pressure (mm Hg)
- - **Skin Thickness:** Triceps skinfold thickness (mm)
- - **Insulin:** 2-hour serum insulin (mu U/ml)
- - **BMI:** Body mass index (weight in kg/(height in m)²)
- - **Diabetes** Pedigree Function: Genetic diabetes likelihood score
- - **Age:** Patient age (years)
+   - **Pregnancies:** Number of times pregnant
+   - **Glucose:** Plasma glucose concentration (mg/dL)
+   - **Blood Pressure:** Diastolic blood pressure (mm Hg)
+   - **Skin Thickness:** Triceps skinfold thickness (mm)
+   - **Insulin:** 2-hour serum insulin (mu U/ml)
+   - **BMI:** Body mass index (weight in kg/(height in m)²)
+   - **Diabetes** Pedigree Function: Genetic diabetes likelihood score
+   - **Age:** Patient age (years)
 
 
 - **Target Variable:** Binary classification
 
- - 1 = Diabetic
- - 0 = Non-diabetic
+   - 1 = Diabetic
+   - 0 = Non-diabetic
 
 
 - **Class Distribution:**
 
- - 268 diabetic cases (34.9%)
- - 500 non-diabetic cases (65.1%)
+   - 268 diabetic cases (34.9%)
+   - 500 non-diabetic cases (65.1%)
 
 ## Methods
 1. **Data Preprocessing**
