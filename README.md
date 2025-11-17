@@ -1,7 +1,7 @@
 
 # Diabetes Prediction using Machine Learning
 
- # 📌 Project Overview
+ # Project Overview
 This project applies machine learning techniques to predict diabetes risk in patients based on medical and lifestyle data. **Using the Pima Indians Diabetes Database**, I developed and compared three classification models to identify individuals at higher risk, achieving **77.9% accuracy** with Random Forest.
 
 **Key Skills Demonstrated:**
