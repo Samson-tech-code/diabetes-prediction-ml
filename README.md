@@ -2,9 +2,15 @@
 # Diabetes Prediction using Machine Learning
 
  # 📌 Project Overview
-This project applies machine learning techniques to predict the likelihood of diabetes in patients based on medical and lifestyle data.  
-It demonstrates skills in **data cleaning**, **exploratory data analysis (EDA)**, **feature engineering**, and **model evaluation** using real-world healthcare data.
+This project applies machine learning techniques to predict diabetes risk in patients based on medical and lifestyle data. **Using the Pima Indians Diabetes Database**, I developed and compared three classification models to identify individuals at higher risk, achieving **77.9% accuracy** with Random Forest.
 
+**Key Skills Demonstrated:**
+
+- Data cleaning & preprocessing with missing value imputation
+- Exploratory Data Analysis (EDA) with statistical visualizations
+- Machine learning model development & hyperparameter tuning
+- Feature importance analysis for healthcare insights
+- Model evaluation using ROC-AUC, precision, recall, and F1-score
 
 ## Objective
 - Develop a predictive model to identify individuals at higher risk of diabetes.
@@ -12,8 +18,33 @@ It demonstrates skills in **data cleaning**, **exploratory data analysis (EDA)**
 - Present results through visualisations and feature importance analysis.
 
 ## Dataset
-Dataset: [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)  
-Contains 768 observations with predictive attributes (e.g., Glucose, BMI, Age, Blood Pressure) + target label.
+Source: [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)  
+
+**Dataset Characteristics:**
+
+- **768 patient records** (female patients of Pima Indian heritage, ages 21+)
+- **8 predictive features:**
+
+ - **Pregnancies:** Number of times pregnant
+ - **Glucose:** Plasma glucose concentration (mg/dL)
+ - **Blood Pressure:** Diastolic blood pressure (mm Hg)
+ - **Skin Thickness:** Triceps skinfold thickness (mm)
+ - **Insulin:** 2-hour serum insulin (mu U/ml)
+ - **BMI:** Body mass index (weight in kg/(height in m)²)
+ - **Diabetes** Pedigree Function: Genetic diabetes likelihood score
+ - **Age:** Patient age (years)
+
+
+- **Target Variable:** Binary classification
+
+ - 1 = Diabetic
+ - 0 = Non-diabetic
+
+
+- **Class Distribution:**
+
+ - 268 diabetic cases (34.9%)
+ - 500 non-diabetic cases (65.1%)
 
 ## Methods
 1. **Data Preprocessing**
