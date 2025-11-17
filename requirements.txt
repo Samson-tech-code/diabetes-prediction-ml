@@ -1,0 +1,17 @@
+# Core Data Science Libraries
+pandas==1.5.3
+numpy==1.24.3
+
+# Machine Learning
+scikit-learn==1.3.0
+
+# Data Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Development Environment
+jupyter==1.0.0
+notebook==6.5.4
+
+# Optional: For enhanced notebook experience
+ipywidgets==8.0.6
